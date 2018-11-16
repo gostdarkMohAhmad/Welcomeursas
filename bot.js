@@ -1,3 +1,6 @@
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
 client.on("guildMemberAdd", member => { 
         if(member.guild.id === "500370868493352970") {  
 setTimeout(function(){ 
