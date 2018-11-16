@@ -1,4 +1,6 @@
 const Discord = require('discord.js'),
+const client = new Discord.Client();
+
     bot = new Discord.Client({sisableEveryone: true})
     console.log("muuuuuuuuute,");
 bot.on('guildMemberAdd', member => {
