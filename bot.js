@@ -1,3 +1,6 @@
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
 client.on("guildMemberAdd", member => { // @! Falsteni - آدم#8655 
         if(member.guild.id === "500370868493352970") {  // @! Falsteni - آدم#8655 
 setTimeout(function(){ // @! Falsteni - آدم#8655 
